@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header #imagem_header {
+  position: absolute;
+  left: 2rem;
+}
+
+header #imagem_header img {
+  width: 65%;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+}
+
+main {
+  padding: 10px;
+  text-align: center;
+}
+
+main img {
+  width: 80%;
+}
+
+main .carros-vermelhos {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  background-color: #003366;
+  justify-content: space-between;
+}
+
+footer nav {
+  display: flex;
+  align-items: center;
+}
+
+.texto-footer {
+  font-size: 20px;
+  color: white;
+}
