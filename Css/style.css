@@ -13,10 +13,13 @@ header {
   padding: 20px;
   text-align: center;
   background-color: white;
+
 }
 
 header a {
   text-decoration: none;
+  color: #003366;
+  font-size: 120%;
 }
 
 header #imagem_header {
@@ -25,7 +28,7 @@ header #imagem_header {
 }
 
 header #imagem_header img {
-  width: 65%;
+  width: 60%;
 }
 
 header nav {
@@ -42,10 +45,14 @@ main img {
   width: 80%;
 }
 
-main .carros-vermelhos {
-  width: 30%;
+main .carros-vermelhos {width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
+}
+main .carros-vermelhos img {
+  width: 15%;
+  padding: 80px;
+
 }
 
 footer {
@@ -59,6 +66,8 @@ footer {
 footer nav {
   display: flex;
   align-items: center;
+  
+  
 }
 
 .texto-footer {
