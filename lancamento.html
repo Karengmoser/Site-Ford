@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ford</title>
-    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/lancamento.css" />
+    <link rel="stylesheet" href="Css/global.css" />
   </head>
   <body>
     <header>
-
       <!-- Imagem cabeçalho -->
 
       <a id="imagem_header" href="Index.html">
-        <img src=img/logo-ford-256.png alt="Logo da Ford" /></a>
+        <img src=img/logo-ford-256.png alt="Logo da Ford" /></a
+      >
 
       <!-- Navegadores Iniciais -->
       <nav>
@@ -20,12 +21,9 @@
         <a href="lancamento.html">Lançamento</a>
         <a href="contato.html">Contato</a>
       </nav>
-
     </header>
 
-
     <main>
-
       <!-- Vídeo Ranger -->
 
       <iframe
@@ -38,21 +36,51 @@
         allowfullscreen
       ></iframe>
 
-      <!-- Carros Vermelhos -->
-      <div class="carros-vermelhos">
-        <img src="img/XL Cabine.jpg" alt="Carro Cabine" />
-        <img src="img/xls 2.2 diesel.jpg" alt="Cabine Dupla" />
-        <img src="img/storm.jpg" alt="Carro Storm" />
-      </div>
+      <!-- Carros Vermelhos e Checkbox -->
+      <section>
+        <div class="carros">
+          <div class="carros-vermelhos">
+            <img src="img/XL Cabine.jpg" alt="Carro Cabine" />
+            <div>
+              <input type="checkbox" name="carro 1" value="carro 1" />
+              <div>
+                <p>Ford Ranger XL Cabine</p>
+                <span> 2.2 Diesel 4x4 2022 </span>
+              </div>
+              <img src="img/info.png" alt="Informação" />
+            </div>
+          </div>
 
+          <div class="carros-vermelhos">
+            <img src="img/xls 2.2 diesel.jpg" alt="Carro XLS" />
+            <div>
+              <input type="checkbox" name="carro 2" value="carro 2" />
+              <div>
+                <p>Ford Ranger</p>
+                <span>XLS 3.0 Diesel 4x4 2022</span>
+              </div>
+              <img src="img/info.png" alt="Informação" />
+            </div>
+          </div>
 
+          <div class="carros-vermelhos">
+            <img src="img/storm.jpg" alt="Carro Storm" />
+            <div>
+              <input type="checkbox" name="carro 3" value="carro 3" />
+              <div>
+                <p>Ford Ranger</p>
+                <span> Storm 3.2 Diesel 4x4 20222 </span>
+              </div>
+              <img src="img/info.png" alt="Informação" />
+            </div>
+          </div>
+        </div>
+        <button>Comparar Carros</button>
+      </section>
     </main>
 
-
-
     <footer>
-
-         <!-- LOGO DAS REDES SOCIAIS -->
+      <!-- LOGO DAS REDES SOCIAIS -->
       <nav>
         <p class="texto-footer">Redes Socias</p>
         <a href="https://www.facebook.com/FordBrasil/" target="_blank">
@@ -70,12 +98,10 @@
         </a>
       </nav>
 
-         <!-- LOGO FORD -->
+      <!-- LOGO FORD -->
       <a href="Index.html" target="_blank">
         <img class="logo-ford-96" src="img/ford-96.png" alt="logo ford" />
       </a>
-
-      
     </footer>
   </body>
 </html>
