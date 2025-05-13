@@ -13,6 +13,11 @@ main h2 {
 main img {
   width: 400px;
   gap: 12px;
+  transition: 2s;
+}
+
+main img:hover {
+  scale: 1.25;
 }
 #formulario {
   display: flex;
@@ -48,4 +53,9 @@ button {
   color: white;
   border-radius: 5px;
   font-size: 12px;
+  transition: 2s;
+}
+button:hover {
+  scale: 0.85;
+  cursor: pointer;
 }

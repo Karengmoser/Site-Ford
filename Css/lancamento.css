@@ -32,7 +32,9 @@ section {
 
 .carros-vermelhos div div {
   display: block;
+  transition: 2s;
 }
+
 .carros-vermelhos div input {
   color: blueviolet;
   width: 25px;
@@ -47,4 +49,9 @@ section button {
   border-radius: 5px;
   font-size: 15px;
   margin: 20px 15px;
+  transition: 2s;
+}
+section button:hover {
+  scale: 0.85;
+  cursor: pointer;
 }
