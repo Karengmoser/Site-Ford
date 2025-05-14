@@ -1,6 +1,7 @@
 main {
   padding: 10px;
   text-align: center;
+  font-family: "Work Sans", sans-serif;
 }
 
 main img {
@@ -11,4 +12,5 @@ main img {
 
 main p {
   margin: 10px 8px;
+  font-size: 20px;
 }

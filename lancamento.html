@@ -6,6 +6,9 @@
     <title>Ford</title>
     <link rel="stylesheet" href="Css/lancamento.css" />
     <link rel="stylesheet" href="Css/global.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
   </head>
   <body>
     <header>
@@ -27,54 +30,54 @@
       <!-- Vídeo Ranger -->
 
       <iframe
-        width="1100"
-        height="470"
         src="https://www.youtube.com/embed/vQsryuNmsL0"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-
-      <!-- Carros Vermelhos e Checkbox -->
       <section>
-        <div class="carros">
-          <div class="carros-vermelhos">
-            <img src="img/XL Cabine.jpg" alt="Carro Cabine" />
-            <div>
-              <input type="checkbox" name="carro 1" value="carro 1" />
-              <div>
-                <p>Ford Ranger XL Cabine</p>
-                <span> 2.2 Diesel 4x4 2022 </span>
+        <table>
+          <!-- Carro1 -->
+          <tr>
+            <td>
+              <img src="img/XL Cabine.jpg" alt="Cabine" />
+              <div class="card-car">
+                <input type="checkbox" name="Car-Cabine" id="car1" />
+                <div class="texts">
+                  <p>Ford Ranger XL Cabine</p>
+                  <span> 2.2 Diesel 4x4 2022 </span>
+                </div>
+                <img class="info" src="img/info.png" alt="info" />
               </div>
-              <img src="img/info.png" alt="Informação" />
-            </div>
-          </div>
+            </td>
+            <!-- Carro2 -->
+            <td>
+              <img src="img/xls 2.2 diesel.jpg" alt="CabineDiesel" />
+              <div class="card-car">
+                <input type="checkbox" name="Car-Cabine" id="car1" />
+                <div class="texts">
+                  <p>Ford Ranger XLS</p>
+                  <span> 3.0 Diesel 4x4 2022 </span>
+                </div>
+                <img class="info" src="img/info.png" alt="info" />
+              </div>
+            </td>
 
-          <div class="carros-vermelhos">
-            <img src="img/xls 2.2 diesel.jpg" alt="Carro XLS" />
-            <div>
-              <input type="checkbox" name="carro 2" value="carro 2" />
-              <div>
-                <p>Ford Ranger</p>
-                <span>XLS 3.0 Diesel 4x4 2022</span>
+            <!-- Carro3 -->
+            <td>
+              <img src="img/storm.jpg" alt="storm" />
+              <div class="card-car">
+                <input type="checkbox" name="Car-Cabine" id="car1" />
+                <div class="texts">
+                  <p>Ford Ranger Storm</p>
+                  <span> 3.2 Diesel 4x4 2022 </span>
+                </div>
+                <img class="info" src="img/info.png" alt="info" />
               </div>
-              <img src="img/info.png" alt="Informação" />
-            </div>
-          </div>
-
-          <div class="carros-vermelhos">
-            <img src="img/storm.jpg" alt="Carro Storm" />
-            <div>
-              <input type="checkbox" name="carro 3" value="carro 3" />
-              <div>
-                <p>Ford Ranger</p>
-                <span> Storm 3.2 Diesel 4x4 20222 </span>
-              </div>
-              <img src="img/info.png" alt="Informação" />
-            </div>
-          </div>
-        </div>
+            </td>
+          </tr>
+        </table>
         <button>Comparar Carros</button>
       </section>
     </main>
