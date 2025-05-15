@@ -3,8 +3,15 @@
   padding: 0;
   margin: 0;
 }
+main {
+  flex: 1;
+}
 
 body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -41,7 +48,7 @@ header nav {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -60,4 +67,97 @@ footer nav {
 .texto-footer {
   font-size: 20px;
   color: white;
+}
+
+@media (max-width: 882px) {
+  header {
+    flex-direction: column;
+  }
+  header #imagem_header {
+    position: static;
+  }
+  footer {
+    flex-direction: column;
+  }
+
+  #imagem-princial {
+    width: 96%;
+  }
+
+  iframe {
+    width: 595px;
+    height: 235px;
+  }
+  .info {
+    width: 5%;
+  }
+  .texts {
+    font-size: 15px;
+  }
+  section {
+    gap: 2rem;
+  }
+  .form-car {
+    width: 45%;
+  }
+
+  .rede-social {
+    width: 60%;
+    padding: 1px;
+  }
+}
+
+@media (max-width: 615px) {
+  iframe {
+    width: 470px;
+    height: 235px;
+  }
+
+  tr {
+    flex-direction: column;
+  }
+  .texts {
+    font-size: 18px;
+  }
+  .info {
+    width: 10%;
+  }
+  .cars {
+    width: 85%;
+  }
+
+  .rede-social {
+    width: 60%;
+    padding: 1px;
+  }
+}
+
+@media (max-width: 440px) {
+  main {
+    flex-direction: column;
+  }
+
+  header nav {
+    font-size: 12px;
+  }
+  main img {
+    width: 92%;
+  }
+  iframe {
+    width: 350px;
+    height: 160px;
+  }
+  tr {
+    flex-direction: column;
+  }
+  .cars {
+    width: 70%;
+  }
+  .form-car {
+    width: 60%;
+  }
+  .rede-social {
+    width: 60%;
+    padding: 1px;
+  }
 }
